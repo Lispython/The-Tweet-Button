@@ -1,0 +1,16 @@
+#files to ignoring
+*.pyc
+*.pyo
+*.hg*
+*.kpf
+*.sock
+*.pem
+*.crx
+*.conf
+*.config
+*.debug_config
+*.server_config
+#*#
+\#*\#
+.#*
+.rope*

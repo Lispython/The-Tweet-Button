@@ -1,0 +1,253 @@
+body, html
+{
+	color:#333;
+	background:#fff;
+	font-family:HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding:0;
+	margin:0;
+  }
+html{ 
+      padding: 10px;
+ }
+body {
+	  margin 5px;
+	  background-color:  #DDEEF6;
+	  width: 550px;
+       height: 400;
+	  float: left; 
+}
+body, select, input, button, textarea {
+                                        color:#333333;
+                                        font-family:"Helvetica Neue","Lucida Grande",Helvetica,Tahoma,Verdana,Arial,sans-serif;
+}
+a
+{
+  color: #0080ee;
+  }
+
+a:hover
+{
+  text-decoration: none;
+  }
+
+
+a:link, a:visited, a:active {
+                              color:#2276BB;
+                              text-decoration:none;
+}
+#header,#search, #statuses {
+				 float: left;
+				 clear: both;	 
+}
+#header { 
+          vertical-align: middle;
+          width: 100%;
+          margin-bottom: 10px;
+ }		
+#header * { 
+            float: left;
+ }
+#header .title, #header .refresh, #header #share-this { 
+                 font-size: 18px;
+                 color: #445566;
+                 height: 24px;
+                 vertical-align: middle;
+                 margin-left: 10px;
+                 margin: 4px;
+ }
+#header .refresh, #header #share-this { 
+                   float: right;
+                   text-align: center;
+                   cursor: pointer;
+                   
+ }
+#header .refresh { 
+                 width: 24px;
+ }
+#header #share-this:hover { 
+text-decoration: underline;
+ }
+#header .rotated { 
+                   -webkit-transform:rotate(360deg);
+                   -webkit-transition: -webkit-transform 1s ease-in;
+ }
+#header .rotated60 { 
+                   -webkit-transform:rotate(-60deg);
+ }
+#header .rotated90 { 
+                   -webkit-transform:rotate(-90deg);
+ }
+#header img { 
+              margin: 3px;
+ }
+#search { 
+          width: 99%;
+          background-color:#fff;
+          padding: .5%;
+
+ }
+#search input[type~="text"]{ 
+                               border: 1px solid #445566;
+                             width: 100%;
+                             font-size: 15px;
+                             margin: 3px auto;
+                             padding: 4px auto;
+                             vertical-align: middle;
+                             text-align: center;
+ }
+#search .field-wrapper { 
+                         float: left;
+ }
+#search .field-wrapper { 
+                         width: 30%;
+                                                 text-align: center;
+ }
+#search .text-wrapper { 
+                        width: 70%;
+ }
+#counter { 
+           width: 100%; 
+           font-size: 20px;
+           text-align: center;
+           vertical-align: middle;
+           padding: 7px 0;
+           float: left;
+ }
+#header {margin-bottom:20px;}
+#statuses .loading, #statuses .error { 
+                                       text-align: center;
+                                       height: 50px;
+                                       font-size: 50px;
+                                      
+ }
+#statuses .loading { 
+                      -webkit-transition: -webkit-transform 1s linear;
+                                       -webkit-transform: rotate(2920deg);
+ }
+#statuses { 
+            float: left;
+            width: 100%;
+            list-style:none outside none;
+            margin: 0px 0;
+            padding: 10px 0;
+            border-bottom: 2px solid  #445566;
+ }
+#statuses li { 
+               float: left;
+               width: 100%;
+ }
+#statuses .thumb {
+                   display: block;
+                   height: 50px;
+                   left: 0px;
+                   margin: 0px 10px 0px 0px;
+                   overflow: hidden;
+                   position: absolute;
+                   width: 50px;
+                   z-index: 10;
+}
+#statuses li.status {
+line-height: 16px;
+}
+#statuses strong.username { 
+                            color: #2276BB;
+                            margin-right:5px;
+ }
+#statuses strong.username:hover { 
+                            text-decoration: underline;
+                                  color: #2276BB
+ }
+#statuses span.status-body {
+                             display: block;
+                             margin-left: 56px;
+                             min-height: 48px;
+                             overflow: hidden;
+                             width: 425px;
+                             }
+#statuses {
+            font-size: 14px;
+            list-style: none;
+            background-color: #fff;
+}
+#statuses .meta {
+                  color: #999;
+                  display: block;
+                  font-size: 11px;
+                  }
+#statuses .entry-meta {
+                        margin-top: 2px;
+                        }
+#statuses .actions-hover { 
+                           display:none;
+ }
+#statuses .actions {
+                     border-width: 0px;
+                     line-height: 1,25em;
+                     position: absolute;
+                     right: 10px;
+                     top: 8px;
+                     }
+#statuse .entry-content { 
+                          margin-left: 3px;
+ }
+.hentry .non-fav, .hentry .fav, .actions .reply {
+                                                  background-image: url(icons/sprite-icons.png);
+                                                  cursor: pointer;
+                                                  display: block;
+                                                  height: 15px;
+                                                  visibility: hidden;
+                                                  width: 15px;
+}
+#statuses statuses > li.last-on-page, #statuses > li.last-on-refresh {
+                                                                       border-bottom: 1px solid #CCC !important;
+}
+#statuses li .meta, #statuses li .actions-hover {
+height: auto;
+}
+.meta a {
+color: #999;
+}
+.meta a:hover { 
+                border-bottom: 1px solid;
+ }
+#statuses li.status {
+border-bottom: ;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: #EEE;
+line-height: 16px;
+padding: 10px 0px 8px;
+padding-top: 10px;
+padding-right: 0px;
+padding-bottom: 8px;
+padding-left: 0px;
+position: relative;
+zoom: 1;
+}
+#container {width:85%; margin:auto;margin-top: 40px;}
+label {margin-right:10px;}
+.second-radio {margin-left:10px;}
+p { color:#828282;}
+a {text-decoration:underline;}
+p.,right {float: right;} 
+#footer {
+		width: 100%;
+		list-style:none outside none;
+		float: left;
+		margin: 0px;
+		padding: 0px;
+}
+#footer li {
+             float: right;
+             margin: 4px 6px;
+             margin-right: 0px;
+             font-size: 12px;
+             border-right: 1px solid #b0b0b0;
+             padding: 2px 8px;
+		}
+#footer li.issues{ 
+                    border-right: 0px none;
+}
+#footer li a:hover {
+                     border-bottom: 1px solid;
+ }

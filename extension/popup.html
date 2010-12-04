@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  	<link href="style.css" rel="stylesheet" type="text/css"/> 
+		<script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="scripts/core.js"></script>
+		<link href="style.css" rel="stylesheet" type="text/css"/> 
+		<script type="text/javascript">
+		  console.log("Hello world");
+		  $(document).ready(function($){
+		  TBBase.popup_init();
+		  });
+    </script>
+	</head>
+	<body>		
+	  <div id="header">
+		<a href="http://twitter.com" target="_blank">
+		  <img src="icons/icon.png" class="icon" alt="The Tweet Button" />
+		</a>
+		<div class="title">
+		  <a href="http://wrttn.me/314b6c/" target="_blank">The Tweet Button</a></div>
+		<div class="refresh">&#x267B;</div>
+		<div id="share-this" class="share-this">Share this</div>
+	  </div>
+	  <div id="search">
+		<div class="field-wrapper text-wrapper">
+		  <input type="text" name="search" id="search-input" placeholder="search tweets" />
+		</div>
+		<div class="field-wrapper">
+		  <input type="button" name="submit" value="search" onclick="TBBase.update_search();" />
+		</div>
+	  </div>
+	  <div id="counter">
+	  </div>
+	  <div id="statuses">
+		<li class="loading">&#x267B;</li>
+	  </div>
+	  <ul id="footer">
+		<li class="issues"><a href="http://wrttn.me/314b6c/" target="_blank">Issues?</a></li>
+<!--		<li class="options"><a href="#">Options</a></li>-->
+		<li class="refresh"><a href="#">Refresh</a></li>	
+	  </ul>
+	</body>
+</html>

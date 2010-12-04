@@ -1,0 +1,28 @@
+{
+"update_url":"http://clients2.google.com/service/update2/crx",
+	"name" : "The Tweet Button",
+	"version" : "0.1.3",
+	"description" : "Share articles on websites on Twitter with The Tweet Button (created by @wrttn)",
+
+	"background_page": "background.html",
+
+	"icons":
+	{
+	  "128" : "icons/icon_big.png",
+	  "22": "icons/icon22.png"
+	},
+
+	"browser_action":
+	{
+   	  "default_icon": "icons/icon.png",
+	  "default_popup": "popup.html" 
+  	},
+  	"permissions":
+  	[
+  	  "tabs",
+   	  "http://twitter.com/*",
+	  "https://twitter.com/*",
+	  "http://*.twitter.com/*",
+	  "https://*.twitter.com/*"
+  	]
+}
